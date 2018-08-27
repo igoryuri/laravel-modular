@@ -1,0 +1,25 @@
+{
+    "name": "igoryuri/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Igor Yuri",
+            "email": "igor.yuri87@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Son\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Son\\Blog\\": ""
+        }
+    }
+}
